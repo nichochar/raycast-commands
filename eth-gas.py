@@ -24,6 +24,6 @@ if __name__ == '__main__':
     live = f"{data['pending']['fee']} gwei"
     one_hour = f"{data['forecast']['1 hour']} gwei"
 
-    result = f"{live} ⏰ ${one_hour} in the hour"
+    result = f"{live} ⏰ ${one_hour} estimated in one hour"
     print(result)
     sys.exit(0)
